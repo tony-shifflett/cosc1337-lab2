@@ -12,17 +12,17 @@ cost of manufacture
 
 int main(){
 
-double productionCost = 8.00; // productionCost stores the cost of making the drive
-double salesPrice; // salesPrice will store the retail cost 
+    double productionCost = 8.00; // productionCost stores the cost of making the drive
+    double salesPrice; // salesPrice will store the retail cost 
 
-//the following calculation determines what sales price will return a 35% profit
-// on the $8.00 cost of manufacture
+    //the following calculation determines what sales price will return a 35% profit
+    // on the $8.00 cost of manufacture
 
-salesPrice = productionCost + productionCost*.35;
+    salesPrice = productionCost + productionCost*.35;
 
-//the following code prints the text and price per assignment prompt, and formats salesPrice 
-std::cout << "To have a 35% profit, the flash drive should sell for $"
-<< std::fixed<<std::setprecision(2)<<salesPrice << std::endl;
+    //the following code prints the text and price per assignment prompt, and formats salesPrice 
+    std::cout << "To have a 35% profit, the flash drive should sell for $"
+    << std::fixed<<std::setprecision(2)<<salesPrice << std::endl;
 
-return 0; 
+    return 0; 
 }
